@@ -1,0 +1,94 @@
+                                                                        Operators And Loops Assignment Questions
+
+
+Q1) What are the conditional operators in java?
+A1) Conditional operators are used to evaluate the Boolean expressions and make decisions based on those evaluations.
+    For Example :- =, <=, >=, <, >, !=, == etc are the comparison operators in java.
+    Detailed Explanation Of One Conditional Operator :-
+                                          int a = 5;
+                                          int b = 10;
+                                          Boolean result = (a!=b);
+    Output :-
+                                          True
+
+Q2) What are the types of operators based on the number of operands?
+A2) Operators in java can be classified as :-
+    a) Unary Operators :- Operators that operate on a single operand .
+       Example :- +,-,!,++,-- .
+    b) Binary Operators :- Operators that operate on two operands .
+       Example :- +,-,*,/,%,&&,|| .
+    c) Ternary Operators :- Operators that works on three operands.
+       Example :- ? : .
+
+Q3) What are the priority levels of arithmetic operations in Java?
+A3) From highest to lowest , the priority levels of arithmetic operations in Java are :-
+    Unary operators :-  ++,--,+,-,! .
+    Multiplication, Division and Modulus :- *,/,% .
+    Addition and Subtraction :- +,- .
+
+Q4) What is the use of Switch case in Java programming?
+A4) The switch case statement allows you to take decisions based on multiple choices. It is an alternative to the multiple if-else statements.
+    Syntax :-
+               switch(expression)
+{
+                    case value1:
+                           break;
+                    case value2:
+                           break;
+                    default:
+}
+
+Q5) What are the conditional statements and use of conditional statements in Java?
+A5) Conditional Statements allows you to control the flow of execution based on conditions.
+    Conditional Statements in Java includes:
+     if: Executes a block of code if its condition is true.
+     if-else: Executes one block of code if the condition is true and another block if it is false.
+     else-if: Allows multiple conditions to be tested in sequence.
+     switch: Selects one of many code blocks to be executed based on the value of an expression.
+
+Q6) What is the syntax of if-else statement?
+A6) if(condition)
+    {
+          // code to be executed if condition is true
+    }
+    else
+    {   
+          // code to be executed if condition is true
+
+    }
+
+Q7) What are the three types of iterative statements in Java?
+A7) The three types of iterative statements in Java are : -
+    for loop: Executes a block of code a specific number of times.
+    while loop: Executes a block of code as long as a condition is true.
+    do-while loop: Executes a block of code at least once, and then continues as long as a condition is true.
+
+Q8)  Write the difference between for loop and do-while loop.*
+   - for loop: Executes a block of code a specified number of times. The loop condition is evaluated before each iteration.
+     Syntax :-
+     for (initialization; condition; update) {
+         // Code to execute
+     }
+     
+   - do-while loop: Executes a block of code at least once before evaluating the loop condition. The loop condition is evaluated after each iteration.
+     Syntax :-
+     do {
+         // Code to execute
+     } while (condition);
+
+Q9) Write a program to print numbers from 1 to 10 using a for loop.
+A9) public class print
+    {
+         public static void main(String args[])
+          {
+              for(int i=1;i<=10;i++)
+              {
+                 System.out.println(i);
+          }
+}
+}
+        
+                          
+
+
+
